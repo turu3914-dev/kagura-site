@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KAGURA</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f7f6fb; --ink: #1d1b29; --muted: #5d5a70; --line: #d9d6e6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #12111a; --ink: #ecebf3; --muted: #a6a3b8; --line: #2c2a3a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.8 system-ui, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; letter-spacing: .08em; margin: 0 0 8px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  a { color: inherit; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>KAGURA</h1>
+  <p class="sub">Personal voice assistant / 個人用の音声アシスタント</p>
+
+  <p>KAGURA は、開発者本人が自分の PC で使うための個人用の音声アシスタントです。一般向けには配布していません。</p>
+  <p>KAGURA is a personal voice assistant that the developer runs on their own computer for their own use. It is not distributed to the public.</p>
+
+  <h2>Google カレンダーの利用 / Use of Google Calendar</h2>
+  <ul>
+    <li>本人の Google カレンダーから今日・今週の予定を読み、画面に表示したり読み上げたりします。</li>
+    <li>本人が声で頼んだときだけ、本人のカレンダーに予定を追加します。</li>
+    <li>Reads the owner's own Google Calendar events to show and read them aloud, and adds events only when the owner asks by voice.</li>
+  </ul>
+
+  <h2>Gmail の利用（読み取り専用）/ Use of Gmail (read-only)</h2>
+  <ul>
+    <li>本人の受信トレイの未読メールについて、差出人・件名・日時・短い抜粋だけを読み、件数や概要を本人に伝えます。</li>
+    <li>メールの送信・削除・既読にする操作はしません。</li>
+    <li>Reads only the sender, subject, date and a short snippet of the owner's unread messages to tell the owner about them. It never sends, deletes or modifies email.</li>
+  </ul>
+
+  <p><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></p>
+
+  <footer>KAGURA — personal use only</footer>
+</main>
+</body>
+</html>
